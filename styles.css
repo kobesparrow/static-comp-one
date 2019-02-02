@@ -41,9 +41,9 @@ img.header__logo {
 .box {
   background-color: #E3E3E3;
   width: 300px;
-  height: 600px;
+  height: 510px;
   padding: 5px, 35px, 10px, 35px;
-  border: 1px solid red;
+  border: 1px solid black;
   margin: 5px;
 } 
 
@@ -84,19 +84,52 @@ div.box__body {
 }
 
 p.box__body-textline1 {
-  font-size: 1.1em;
+  font-size: 1.2em;
+  margin: 25px 0px 3px 0px;
+  line-height: 100%
 }
+
 p.box__body-textline2 {
   font-size: .9em;
+  margin: 3px 0px 15px 0px;
+  color: #A5A1A5;
+  line-height: 100%;
 }
 
 div.box__body--website {
   background-color: #706677;
-  margin: 10px;
+  margin: 17px 0px 17px 0px;
+  padding: 5px 5px 5px 5px;
+}
+
+p.box__body--website-text {
+  color: #262626;
+  margin: 10px 7px 10px 7px;
+}
+
+p.box__body-favfeature {
+  font-size: .9em; 
+  margin: 17px 0px 5px 0px;
+  line-height: 100%;
+}
+
+p.box__body-favfeture-answer {
+  font-size: 1.2em;
+  margin: 5px 0px 17px 0px;
+  line-height: 100%
+}
+
+p.box__body-ranking {
+  margin: 17px 0px 0px 0px;
+  font-size: .9em; 
+  line-height: 100%;
+  letter-spacing: .6px;
 }
 
 p.box__body-textline7 {
   color: #F06543;
   font-size: 2.4em;
+  margin: 0px 0px 10px 0px;
+  line-height: 100%;
 }
 
