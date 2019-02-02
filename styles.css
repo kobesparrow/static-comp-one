@@ -1,5 +1,8 @@
 body {
-  background-color: #EA6808C;
+  margin: -2px;
+  padding; 0px;
+  background-color: #898989;
+  font-family: 'PT Sans Narrow', sans-serif;
 }
 
 header {
@@ -35,15 +38,33 @@ img.header__logo {
 }
 
 .box {
+  background-color: #E3E3E3;
   width: 300px;
   height: 600px;
-  padding: 5px, 15px, 10px, 15px;
+  padding: 5px, 35px, 10px, 35px;
+  border: 1px solid red;
 } 
 
 .box__header {
   height: 200px;
   width: 100%;
   padding: 0px; 
+}
+
+img.box__header-logo {
+  width: 300px;
+  height: 200px;
+  background-image: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(images/park.jpg);
+  color: white;
+  background-size: cover;
+  background-position: bottom;
+  align-content: center;
+}
+
+
+div.box__body--website {
+  background-color: #706677;
+  margin: 10px;
 }
 
 p.box__body-textline7 {
