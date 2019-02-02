@@ -35,6 +35,7 @@ img.header__logo {
 .body__tiles {
   display: flex;
   flex-direction: row;
+  width: 100%;
 }
 
 .box {
@@ -43,24 +44,51 @@ img.header__logo {
   height: 600px;
   padding: 5px, 35px, 10px, 35px;
   border: 1px solid red;
+  margin: 5px;
 } 
 
 .box__header {
-  height: 200px;
+/*  height: 200px;
   width: 100%;
-  padding: 0px; 
-}
-
-img.box__header-logo {
+  padding: 0px; */
+  float: right;
+  color: white;
   width: 300px;
   height: 200px;
-  background-image: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(images/park.jpg);
-  color: white;
+  background-image: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(assets/yellowstone-essample.jpg);
   background-size: cover;
   background-position: bottom;
   align-content: center;
+  padding: 0px;
+  margin: 0px 0px 25px 0px;
 }
 
+div.box__header--text {
+  float:right;
+  margin: 10px;
+  width: 50px;
+}
+
+p.box__header--visits {
+  margin: 10px 5px 0px 5px;
+}
+
+p.box__header--views {
+  font-size: 2.5em;
+  margin: 0px 5px 5px 5px;
+  padding: 0px 0px 0px 0px;
+}
+
+div.box__body {
+  margin: 25px 15px 25px 15px;
+}
+
+p.box__body-textline1 {
+  font-size: 1.1em;
+}
+p.box__body-textline2 {
+  font-size: .9em;
+}
 
 div.box__body--website {
   background-color: #706677;
@@ -69,5 +97,6 @@ div.box__body--website {
 
 p.box__body-textline7 {
   color: #F06543;
+  font-size: 2.4em;
 }
 
