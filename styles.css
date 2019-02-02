@@ -1,0 +1,52 @@
+body {
+  background-color: #EA6808C;
+}
+
+header {
+  background-color: #494368;
+  height: 150px;
+}
+
+h1 {}
+
+.header__drop-down {
+
+}
+
+button.header__button-left {
+
+}
+
+button.header__button-center {
+
+}
+
+button.header__button-right {
+
+}
+
+img.header__logo {
+
+}
+
+.body__tiles {
+  display: flex;
+  flex-direction: row;
+}
+
+.box {
+  width: 300px;
+  height: 600px;
+  padding: 5px, 15px, 10px, 15px;
+} 
+
+.box__header {
+  height: 200px;
+  width: 100%;
+  padding: 0px; 
+}
+
+p.box__body-textline7 {
+  color: #F06543;
+}
+
